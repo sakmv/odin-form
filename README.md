@@ -1,13 +1,15 @@
 # odin-form
 
-# 🖋️ Form Template 
+# Form Template 
 
 This is a **basic sign-up form template** built using just HTML and CSS.  
 It's meant for practice or demos — it does **not save any data**.
 
 ---
+## Live Link 
+https://sakmv.github.io/odin-form/
 
-## 💡 Features
+## Features
 
 - Custom fonts
 - Clean and stylish design
@@ -17,7 +19,7 @@ It's meant for practice or demos — it does **not save any data**.
 
 ---
 
-## 📷 Preview
+## Preview
 
 (./images/Screenshot%202025-05-28%20002711.png)
 
@@ -25,7 +27,7 @@ It's meant for practice or demos — it does **not save any data**.
 
 ---
 
-## 🔧 How to Use
+## How to Use
 
 1. Open the `index.html` file in your browser.
 2. You can edit the text, fonts, colors in the `style.css` file.
@@ -33,7 +35,7 @@ It's meant for practice or demos — it does **not save any data**.
 
 ---
 
-## 🧑‍🎨 Credits
+## Credits
 
 - Image: *Photo by Annie Spratt on Unsplash*
 - Fonts: Lavishly Yours (local font file)
