@@ -21,9 +21,9 @@ https://sakmv.github.io/odin-form/
 
 ## Preview
 
-(./images/Screenshot%202025-05-28%20002711.png)
+![img1](./images/Screenshot%202025-05-28%20002711.png)
 
-(./images/Screenshot%202025-05-28%20002814.png)
+![img2](./images/Screenshot%202025-05-28%20002814.png)
 
 ---
 
