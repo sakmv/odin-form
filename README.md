@@ -1,6 +1,6 @@
 # odin-form
 
-# 🖋️ Form Template - Brindle & Co.
+# 🖋️ Form Template 
 
 This is a **basic sign-up form template** built using just HTML and CSS.  
 It's meant for practice or demos — it does **not save any data**.
