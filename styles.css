@@ -1,0 +1,129 @@
+
+html{
+    font-size:62.5%;
+}
+@font-face {
+  font-family: fancy;
+  src: url(./fonts/LavishlyYours-Regular.ttf);
+}
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'fancy';
+    display:flex;
+    justify-content: center;
+    width:100%;
+    background:linear-gradient(to bottom, rgb(19, 23, 26),rgb(75, 66, 50));
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background-color: rgba(16, 18, 19, 0.718);
+    padding:3rem ;
+    font-size:2.5rem;
+    font-weight: 400;
+    color:aliceblue;
+    margin:0 0 4rem 0;
+}
+header p:hover{
+    color:rgb(255, 255, 255);
+    text-shadow:0 0 3rem wheat;
+}
+header a:hover{
+    color:rgb(255, 255, 255);
+    text-shadow:0 0 3rem rgb(197, 171, 122);
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue
+}
+.container{
+    width:100%;
+}
+main{
+    display:flex;
+    width:100%;
+}
+.left{
+    width:40%;
+    margin:0 2rem 0 0;
+}
+.image{
+    width:100%;
+    border-radius:10rem;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin:2rem 0rem 2rem 2rem;
+    border: 0.2rem solid rgb(46, 38, 34);
+     box-shadow: 0 0 0 0.3rem rgb(16, 10, 10);
+    position:relative;
+    z-index:1;
+}
+.image:hover{
+    border:0.2rem solid wheat;
+    box-shadow: 0 0 3rem wheat;
+}
+.image img{
+    width:100%;
+}
+.text{
+    position: absolute;
+    top:50%;
+    right:50%;
+    translate:50% -50%;
+    color:rgb(60, 48, 0);
+    font-size:7rem;
+    background-color: rgba(182, 173, 155, 0.778);
+    width:100%;
+    text-align-last: center;
+    padding:5rem;
+    font-weight:700;
+
+    
+}
+.right{
+    width:60%;
+    margin: 0 4rem 0 4rem;
+    text-align: center;
+    line-height: 1.5;
+    display:flex;
+    flex-direction: column;
+    gap:4rem;
+
+}
+.right h1{
+    color:aliceblue;
+    font-size: 10rem;
+    font-weight: 300;
+    text-align: center;
+}
+.sign{
+     background-color: rgba(38, 35, 30, 0.355);
+     height:500px;
+     border-radius: 4rem;
+     padding:2rem;
+}
+.right p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+    font-size: 2rem;
+    padding: 0rem 10rem;
+}
+h1:hover{
+     color:rgb(255, 255, 255);
+    text-shadow:0 0 3rem wheat;
+}
+p:hover{
+   color:rgb(255, 255, 255);
+    text-shadow:0 0 3rem wheat;
+}
