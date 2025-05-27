@@ -16,7 +16,7 @@ body{
     display:flex;
     justify-content: center;
     width:100%;
-    background:linear-gradient(to bottom, rgb(19, 23, 26),rgb(75, 66, 50));
+    background: rgb(19, 23, 26)
 }
 header{
     display:flex;
@@ -32,7 +32,21 @@ header{
     color:aliceblue;
     margin:0 0 4rem 0;
 }
-header p:hover{
+footer p{
+    width:100%;
+    position: relative;
+    bottom: 0;
+    background-color: rgba(16, 18, 19, 0.718);
+    padding:3rem 3rem 6rem 3rem ;
+    font-size:3rem;
+    font-weight: 700;
+    color:aliceblue;
+    margin:4rem 0 0 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header p:hover,
+footer p:hover{
     color:rgb(255, 255, 255);
     text-shadow:0 0 3rem wheat;
 }
@@ -47,10 +61,17 @@ a{
 }
 .container{
     width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(to bottom, rgb(19, 23, 26),rgb(75, 66, 50));
+   
 }
 main{
     display:flex;
     width:100%;
+     max-width: 1521px;
+     justify-content: center;
 }
 .left{
     width:40%;
@@ -91,6 +112,13 @@ main{
 
     
 }
+.credit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 2rem;
+}
 .right{
     width:60%;
     margin: 0 4rem 0 4rem;
@@ -106,12 +134,13 @@ main{
     font-size: 10rem;
     font-weight: 300;
     text-align: center;
+
 }
 .sign{
      background-color: rgba(38, 35, 30, 0.355);
-     height:500px;
      border-radius: 4rem;
-     padding:2rem;
+     padding:5rem 8rem;
+     box-shadow: 1rem 1rem 1rem rgb(28, 28, 28);
 }
 .right p{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -119,11 +148,104 @@ main{
     font-size: 2rem;
     padding: 0rem 10rem;
 }
-h1:hover{
+h1:hover,
+h3:hover,
+p:hover{
      color:rgb(255, 255, 255);
     text-shadow:0 0 3rem wheat;
 }
-p:hover{
-   color:rgb(255, 255, 255);
-    text-shadow:0 0 3rem wheat;
+.sign p{
+    width:100%;
+}
+.sign h3{
+    font-size:5rem;
+    color:aliceblue;
+}
+.row2,
+.row1{
+    padding:4rem;
+    display: flex;
+    gap:5rem;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+input:focus {
+  border: 0.2rem solid #000;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+input{
+    border-radius:0.5rem;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+.info{margin-top: 6rem;
+    margin-bottom: 6rem;
+    display:flex;
+    justify-content: space-evenly;
+    text-align: start;
+}
+.colum1,
+.colum2{
+    display:flex;
+    flex-direction: column;
+    gap:6rem;
+    font-size:2rem;
+    color:aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: flex-end;
+}
+.form{
+    display: block;
+    align-content: center;
+}
+button{
+    font-family: fancy;
+    color:aliceblue;
+    border-radius:2rem;
+    width:18%;
+    padding:1rem;
+    font-size:1.7rem;
+    background-color: rgba(245, 222, 179, 0.475);
+    border:transparent
+}
+button:hover{
+    width:23%;
+    padding:1.5rem;
+    font-size:2.1rem;
+    background-color:tan;
+    box-shadow: 0 0 3rem wheat;
+    color:white;
+}
+.fixed{
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    font-size:3rem;
+    background-color: rgb(23, 22, 21);
+    color: wheat;
+    z-index: 1001;
+    width: 100%;
+    text-align: center;
+}
+.fixed a{
+    color:wheat;
+    font-size: 3rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }

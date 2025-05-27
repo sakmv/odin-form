@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="preload" as="image" href="./images/annie-spratt-xqFoMT-1K34-unsplash.jpg">
-    <title>Document</title>
+    <title>form</title>
 </head>
 <body>
     <div class="container">
@@ -16,21 +16,54 @@
         </header>
         <main>
              <div class="left">
-                 <div class="image"><img src='images/annie-spratt-xqFoMT-1K34-unsplash.jpg'><div class="text">Brindle & Co.</div></div>
+                 <div class="image"><img src='images/annie-spratt-xqFoMT-1K34-unsplash.jpg'><div class="text">Brindle & Co.</div><div class="credit">Photo by <a href="https://unsplash.com/@anniespratt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Annie Spratt</a> on <a href="https://unsplash.com/photos/a-window-with-a-plant-and-light-curtains-xqFoMT-1K34?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </div></div>
              </div>
              <div class="right">
                 <h1>Sign Up</h1>
                 <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
-Sign up now to get started!<br> You know you want to...</p>
+                   Sign up now to get started!<br> You know you want to...</p>
                  <div class="sign">
-                     <form action="#" method="put">
-                                     input
-                                  </form>
+                    <h3>Let's do this!</h3>
+                     <form action="#" method="post">
+                           <div class="info">
+                                <div class="colum1">
+                                    <div class="name">
+                                        <label for="name">Firstname: </label><br>
+                                        <input type="text" id="name" placeholder="your name" name="name">
+                                    </div>
+                                    <div class="surname">
+                                        <label for="surname">Lastname: </label><br>
+                                        <input type="text" id="surname" placeholder="your surname" name="surname"></p>
+                                    </div>
+                                    <div class="email">
+                                        <label for="email">Email: </label><br>
+                                        <input type="email" id="email" name="email" placeholder="xyz@tokomail.com">
+                                    </div>
+                                </div>
+                                <div class="colum2">
+                                    <div class="phone">
+                                        <label for="phone">Phone number: </label><br>
+                                        <input type="text" inputmode="numeric" id="phone" name="phone" placeholder="97XXXXXXXX" minlength="10" maxlength="10">
+                                    </div>
+                                    <div class="password">
+                                        <label for="password">Password:</label><br>
+                                        <input type="password" id="passowrd" name="password" pattern="^(?=.*[A-Z])(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$" placeholder='*********'>
+                                    </div>
+                                    <div class="repassword">
+                                        <label for="repassword">Confirm Password:</label><br>
+                                        <input type="password" id="repassword" name="repassword" placeholder='*********' pattern="^(?=.*[A-Z])(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$">
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit">Create Account</button>
+                         </form>
                  </div>
              </div>
         </main>
         <footer>
-             footer
+            <div class="fixed"> &copy; 2025 by <a href="https://github.com/sakmv" target="_blank">sakmv</a></div>
+             <p>Already have an account? Log in</p>
         </footer>
     </div>
 </body>
